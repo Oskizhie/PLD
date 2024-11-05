@@ -1,0 +1,10 @@
+body {
+    background-color: hotpink;
+}
+
+img {
+    width: 500px;
+    position: absolute;
+    right: 34%;
+    bottom: 20%;
+}

@@ -1,0 +1,49 @@
+div.movingtext {
+    font-family: cursive
+}
+
+.base {
+    background: transparent;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+form .directionname p{
+    color: coral;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+form .pic img {
+    display: flex;
+    width: 400px;
+    padding: 10px;
+}
+
+form .name {
+    margin-left: 37px;
+    display: flex;
+    padding: 10px;
+}
+form .name input {
+    font-size: 25px;
+    padding: 4px;
+    text-align: center;
+}
+
+form .submit {
+    display: flex;
+    justify-content: right;
+    margin-right: 47px;
+}
+form  .submit button {
+    font-size: 15px;
+    background-color: firebrick;
+    color: burlywood;
+    
+}

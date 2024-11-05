@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER INFORMATION</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    
+    <div class="movingtext">
+        <marquee direction="left">
+            <h1>WELCOME TO OSKI PANLAN D. SYSTEM</h1>
+        </marquee>
+    </div>
+        <div class="base">
+                <form onsubmit="return checkName()">
+                    <div class="pic">
+                        <img src="SG.png" alt="look">
+                    </div>
+                    <div class="directionname">
+                        <p>Please Enter you name :)</p>
+                    </div>
+                    <div class="name">
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+        </div>
+
+        <div id="usernameDisplay"></div>
+    
+    <script src="info.js" type="module"></script>
+
+    
+</body>
+</html>
